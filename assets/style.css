@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+
+.container {
+    background-color: #f0f2f5;
+}
+
+
+.included {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px;
+    margin-left: 7%;
+    margin-right: 7%;
+
+    
+}
+.left-side {
+    margin-left: -20%;
+}
+.right-side {
+    
+    width: 350px;
+    padding: 55px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 5px 13px rgba(0, 0, 0, .1);
+    background-color: #fff;
+
+}
+
+#create {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+#log-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.text-for-image {
+    font-size: xx-large;
+}
+.text-for-image {
+    margin-left: 25px;
+}
+input {
+    size: px;
+}
+.right-side input {
+    inline-size: 100%;
+    line-height: 45px;
+    border-radius: 5px;
+    border-color: #f0f2f5;
+    font-size: medium;
+}
+
+
+.right-side button {
+    border: transparent;
+    background-color: #1877f2;
+    inline-size: 100%;
+    line-height: 45px;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+}
+.right-side a {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 100%;
+}
+
+.create-button button {
+    font-size: large;
+    color: #fff;
+    background-color: #42b72a;
+    inline-size: 70%;
+}
